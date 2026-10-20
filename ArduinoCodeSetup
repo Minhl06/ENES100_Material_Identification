@@ -1,0 +1,43 @@
+#include "Enes100.h"
+
+void setup() {
+
+  //initial setup
+  Enes100.begin("The Chips", MATERIAL, 102, 1116);
+
+
+  //pin setups
+  //ultrasonic sensors
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+
+  //kill Switch
+  pinMode(, INPUT);
+
+
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  pinMode(, INPUT);
+  //trigger for Ultrasonic
+  pinMode(, OUTPUT);
+
+  //Arm Servo Signal
+  pinMode(, OUTPUT);
+
+  //Current Draw 
+  pinMode(, OUTPUT);
+  pinMode(, OUTPUT);
+  pinMode(, OUTPUT);
+  
+
+  Enes100.getX()
+  Enes100.getY()
+  Enes100.getTheta()
+  Enes100.isVisible()
+  //Using these turn otv to right orientation
+}
+
